@@ -219,6 +219,8 @@ public class PackageJarMojo extends AbstractMojo {
             return "Ignite";
         } else if (trimmed.startsWith("mips")) {
             return "Mips";
+        } else if (trimmed.startsWith("loongarch64")) {
+            return "Loongarch64";
         } else if (trimmed.startsWith("parisc")) {
             return "PArisc";
         } else if (trimmed.startsWith("powerpc") || trimmed.startsWith("power") || trimmed.startsWith("ppc")) {
